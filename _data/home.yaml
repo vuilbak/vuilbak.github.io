@@ -1,0 +1,43 @@
+column_1:
+  - url: http://www.vuilbak.in/vuilbak-recordlabel/home.html
+    img: vuilbak.jpg
+    width: 100%
+
+column_2:
+
+  - url: pages/clouds/
+    img: cloud.png
+    width: 100px
+    bg: "#b6fbfb"
+
+  - title: pentapus
+    url: pages/pentapus/home.html
+    img: pentapus.png
+    width: 150px
+    bg: white
+
+  - url: http://www.vuilbak.in/vuilbak-recordlabel/home.html
+    img: vuilbak.jpg
+    width: 150px
+    bg: pink
+
+  - url: pages/nachtwinkelsingent/nachtwinkelsingent
+    img: NACHT.png
+
+  - url: pages/bergduivel/ruis.html
+    img: ruis.gif
+    width: 70%
+
+  - url: pages/openureyes/home.html
+    img: BeautifulEye.png
+    width: 25%
+
+column_3:
+
+  - url: pages/DAVER/home.html
+    img: DAVEREND.gif
+    width: 50%
+
+  - url: pages/jasminedragon/
+    img: jap_temple.png
+    width: 45%

@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
+body{
+	background-image: url("wallpaper.png");
+	font-size: 90%;
+	color: #004400;
+	font-family: 'Inconsolata', sans-serif;
+	padding: 0%;
+	margin: 0%;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+}
+
+h1{
+	font-size: 2000%;
+	color: black;
+	font-family: Arial;
+	text-align: center;
+	text-transform: uppercase;
+	background-image: url("pentapus.png");
+	background-color: white;
+	background-size: 20%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 0%;
+	margin: 0%;
+	padding-top: 0%;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 0.5%;
+}
+
+#wrapper{
+	margin: 0%;
+	padding: 0%;
+	width: 100%
+}
+
+#content-page{
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+	background-color: white;
+}
+
+.button{
+	width:23%;
+	padding: 0%;
+	float:left;
+	margin: 3% 1% 1.5% 1%;
+}
+
+#content-page .beeld-item{
+	width: 16%;
+	padding: 0%;
+	margin: 0.5% 0.25% 0.5% 0.25%;
+	float: left;
+}
+
+.model{
+
+}
+
+#content-page h2{
+	font-size: 100%;
+	background-image: none;
+}
+
+.model #author{
+
+}
+
+#upper-part{
+	background-color:white;
+	height: 10%;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+}
+
+#upper-part #description{
+	width: 85%;
+	padding: 2% 1% 2% 12%;
+	font-size: 125%;
+	padding-left: 
+	height: inherit;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	text-align: justify;
+	text-justify: inter-word;
+
+
+}
+
+#banner{
+	width: 10%;
+	float: left;
+}
+
+#banner img{
+	width: 100%;
+}
+
+.model #description{
+
+}
+
+.woord{
+	width: 17.2%;
+	height: 19%;
+	margin: 0.5% 0% 0.5% 0.5%;
+	padding: 1% 1% 1% 1%;
+	border-color: green;
+	border-style: solid;
+	border-width: 2px;
+	float: left;
+	background-color: white;
+}
+
+.woord .description{
+	text-align: justify;
+	text-justify: inter-word;
+
+}
+
+.woord h2{
+	text-align: center;
+	font-size: 120%;
+	text-transform: uppercase;
+	color: #004400;
+}
+
+#content-page a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+#footer{
+	font-size: 100%;
+	color: black;
+	text-align: center;
+	margin-top: 1%;
+	padding-bottom: 0.5%;
+}

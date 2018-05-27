@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+
+<body style="background-image:url({{ "/assets/img/eye.png" }});">
+
+<div class="home">
+  {% assign default_paths = site.pages | map: "path" %}
+  {% assign page_paths = site.header_pages | default: default_paths %}
+
+  {% if page.title %}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {% endif %}
+
+  <!-- FIRST COLUMN -->
+  <div class='w3-col s12 m4 l3 w3-margin'>
+    <div class="lameyellow">
+    <hr>
+    <!-- BLOG-LIKE POSTS -->
+    {% if site.posts.size > 0 %}
+      <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+      <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h4>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h4>
+          {% if site.show_excerpts %}
+            {{ post.excerpt }}
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {% endif %}
+    <img src="{{ "/assets/img/vuilbakbanner2.png" | absolute_url }} " width='100%'><br><br>
+    <hr>
+  </div>
+
+    <!-- COLUMN 1 PAGES -->
+    {% assign shuffled_pages = site.data.home.column_1 | shuffle %}
+    {% for item in shuffled_pages %}
+      <div class="w3-col w3-padding dashed vb-margin lamegreen"
+           style="width:{{ item.width }};" >
+        {% if item.title %}
+          <h3> {{ item.title }} </h3>
+        {% endif %}
+        <a href="{{ item.url }}" alt="{{ item.title }}"><img src="{{ "/assets/img/"  | append: item.img }}" width="100%"></a></li>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- SECOND COLUMN -->
+  <div class='w3-col s6 m4 l3 w3-padding'>
+
+    <!-- COLUMN 2 PAGES -->
+    {% for item in site.data.home.column_2 %}
+      <div class="w3-col w3-padding  vb-margin"
+           style="width:{{ item.width }};background-color:{{ item.bg }};" >
+        {% if item.title %}
+          <h3> {{ item.title }} </h3>
+        {% endif %}
+        <a href="{{ item.url }}" alt="{{ item.title }}"><img src="{{ "/assets/img/"  | append: item.img }}" width="100%"></a></li>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- THIRD COLUMN -->
+  <div class='w3-col s5 m4 l2 w3-padding lamegreen w3-margin'>
+    {% if page_paths %}
+        {% for path in page_paths %}
+        {% assign my_page = site.pages | where: "path", path | first %}
+        {% if my_page.home_img == "none" or my_page.home_txt %}
+          <div class="w3-container rightalign">
+              {% if my_page.title %}
+              <h2>
+                <a class="page-link" href="{{ my_page.url | relative_url }}">
+                  <h3>{{ my_page.title | escape }}</h2>
+                </a>
+              </h2>
+              {% endif %}
+          </div>
+        {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    <!-- COLUMN 3 PAGES -->
+    {% for item in site.data.home.column_3 %}
+      <div class="w3-col bordered vb-margin"
+           style="width:{{ item.width }};background-color:{{ item.bg }};" >
+        {% if item.title %}
+          <h3> {{ item.title }} </h3>
+        {% endif %}
+        <a href="{{ item.url }}" alt="{{ item.title }}"><img src="{{ "/assets/img/"  | append: item.img }}" width="100%"></a></li>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class='w3-col s6 m4 l3 w3-padding'>
+    {{ content }}
+  </div>
+
+</div>
+
+</body>
+
+</html>
