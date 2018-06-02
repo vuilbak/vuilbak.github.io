@@ -41,3 +41,21 @@ column_3:
   - url: pages/jasminedragon/
     img: jap_temple.png
     width: 45%
+
+  - url: pages/ongetitelde_tentoonstelling/
+    title: Ongetitelde tentoonstelling met meerdere kamers
+    width: 75%
+    img: vuilbakbanner2.png
+
+  - url: pages/walkthrough/stonehenge.html
+    width: 33%
+    img: youngster.jpg
+
+  - url: pages/walkthrough/msm.html
+    width: 45%
+    img: cyclist.jpg
+
+  - url: pages/mu_bb/
+    width: 87%
+    img: bb.jpg
+    title: /bb/mu

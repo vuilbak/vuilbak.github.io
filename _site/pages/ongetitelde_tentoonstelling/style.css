@@ -1,0 +1,45 @@
+body{
+    background-color:  white;
+    font-size: 100%;
+    font-family: 'Inconsolata', monospace;
+}
+
+#wrapper{
+    float: center;
+}
+
+.post{
+    border-color:white;
+    border-style:dashed;
+    border-width:1.5px;
+    text-align: justify;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    margin: 0 0.5% 1% 0.5%;
+}
+
+.column{    
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 75%;
+    width: 46%;
+    text-align: justify;
+    float: right;
+    margin-right: 1%;
+}
+
+h1{
+    font-family: arial;
+    color: black;
+    font-size: 34;
+	text-align: right;
+}
+
+a:hover{
+    color: green;
+}
+
+a{
+    color: black;
+    text-decoration: None; 
+}
