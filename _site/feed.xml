@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-02T22:01:15+02:00</updated><id>http://localhost:4000/</id><title type="html">vuilbak</title><subtitle>v u i l b a k</subtitle><entry><title type="html">\phi\mu</title><link href="http://localhost:4000/music%20vuilbak/2018/04/30/phimu.html" rel="alternate" type="text/html" title="\phi\mu" /><published>2018-04-30T00:00:00+02:00</published><updated>2018-04-30T00:00:00+02:00</updated><id>http://localhost:4000/music%20vuilbak/2018/04/30/phimu</id><content type="html" xml:base="http://localhost:4000/music%20vuilbak/2018/04/30/phimu.html">&lt;p&gt;Better known as &lt;a href=&quot;https://bruinebeer.bandcamp.com/album/-&quot;&gt;φμ&lt;/a&gt; when unicode works or $\phi\mu$ if we want to do fancy math style. Previously (in earlier versions) also known as ‘&lt;a href=&quot;https://bruinebeer.bandcamp.com/album/-&quot;&gt;Generative music for sleeping&lt;/a&gt;’ (or more informally even &lt;code class=&quot;highlighter-rouge&quot;&gt;orthosong&lt;/code&gt;). Whatever the name, it is a work I made in 2016 and edited and expanded in the last months of 2017 and is an exploration in the world of generative music and unedited long-duration field recording. As some of the earlier titles already indicate, it can be considered as music for sleeping, or at least as music with some sleep-inducing qualities. I am particularly fond of this music as a matter of fact, and while many might think it is way lamer than previous things I made, I might consider it as my best work (wherever that might end up on some external reference scale). It was presented during an exhibition in the art gallery ‘Galerij Jan Colle’ in Ghent during an exhibition entitled ‘Waar de vogeltjes fluiten’, curated by Charlotte Vandenbroucke.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-23T22:05:21+02:00</updated><id>http://localhost:4000/</id><title type="html">vuilbak</title><subtitle>v u i l b a k</subtitle><entry><title type="html">φμ</title><link href="http://localhost:4000/music%20vuilbak/2018/04/30/phimu.html" rel="alternate" type="text/html" title="φμ" /><published>2018-04-30T00:00:00+02:00</published><updated>2018-04-30T00:00:00+02:00</updated><id>http://localhost:4000/music%20vuilbak/2018/04/30/phimu</id><content type="html" xml:base="http://localhost:4000/music%20vuilbak/2018/04/30/phimu.html">&lt;p&gt;Better known as &lt;a href=&quot;https://bruinebeer.bandcamp.com/album/-&quot;&gt;φμ&lt;/a&gt; when unicode works or $\phi\mu$ if we want to do fancy math style. Previously (in earlier versions) also known as ‘&lt;a href=&quot;https://bruinebeer.bandcamp.com/album/-&quot;&gt;Generative music for sleeping&lt;/a&gt;’ (or more informally even &lt;code class=&quot;highlighter-rouge&quot;&gt;orthosong&lt;/code&gt;). Whatever the name, it is a work I made in 2016 and edited and expanded in the last months of 2017 and is an exploration in the world of generative music and unedited long-duration field recording. As some of the earlier titles already indicate, it can be considered as music for sleeping, or at least as music with some sleep-inducing qualities. I am particularly fond of this music as a matter of fact, and while many might think it is way lamer than previous things I made, I might consider it as my best work (wherever that might end up on some external reference scale). It was presented during an exhibition in the art gallery ‘Galerij Jan Colle’ in Ghent during an exhibition entitled ‘Waar de vogeltjes fluiten’, curated by Charlotte Vandenbroucke.&lt;/p&gt;
 
 &lt;center&gt;
 &lt;img src=&quot;http://localhost:4000/assets/img/phimu2.jpg &quot; width=&quot;49.8%&quot; /&gt;
@@ -19,65 +19,4 @@
 
 &lt;center&gt;
 &lt;img src=&quot;http://localhost:4000/assets/img/npd.jpg &quot; width=&quot;100%&quot; /&gt;
-&lt;/center&gt;</content><author><name></name></author><summary type="html">These tracks have been laying around for quite a while, and I have always enjoyed them myself. However they have only been released in the most obscure places: there was this vuilbak compilation cassette called ‘Stort Vol.2’, which was a limited edition release of size 3 (a threefold increase compared to Stort Vol.1!), and one of the tracks could be found somewhere on the vuilbak record-label website. Now these are collected under the title Non-particular dream. In the words of the great composer:</summary></entry><entry><title type="html">The infinitesimal model</title><link href="http://localhost:4000/qgen%20popgen%20evolution/2018/02/24/infmodel.html" rel="alternate" type="text/html" title="The infinitesimal model" /><published>2018-02-24T16:04:50+01:00</published><updated>2018-02-24T16:04:50+01:00</updated><id>http://localhost:4000/qgen%20popgen%20evolution/2018/02/24/infmodel</id><content type="html" xml:base="http://localhost:4000/qgen%20popgen%20evolution/2018/02/24/infmodel.html">&lt;p&gt;Barton, Etheridge &amp;amp; Véber (2017) have given us a nice and in-depth paper on the infinitesimal model in quantitative genetics, and discuss its very interesting possibilities in evolutionary genetics. Here I document a reading of this paper, mostly reproducing their math with some additional notes and comments, as an exercise of course.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-basic-infinitesimal-model&quot;&gt;The basic infinitesimal model&lt;/h2&gt;
-
-&lt;p&gt;We assume a large outcrossing population, and a purely additive quantitative trait with phenotype $z$, determined only by a genetic component for now. Denote $z_{ij}$ as the phenotype of offspring of a cross of parents $i$ and $j$ then&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;z_{ij} \sim N(\bar{z}_{i,j}, V_0)&lt;/script&gt;
-
-&lt;p&gt;&lt;em&gt;i.e.&lt;/em&gt; the offspring phenotype follows a Normal distribution around the mean of the parents phenotypes with fixed variance $V_0$ independent of the parental phenotypes.&lt;/p&gt;
-
-&lt;p&gt;Under random mating, this implies that the distribution of trait values of population as a whole converges to a Normal distribution with variance $2V_0$. If we denote the variance of $z$ in the parental population as $V_1$, the variance of the offspring is given by $\frac{V_1}{2}$. The &lt;a href=&quot;https://en.wikipedia.org/wiki/Sum_of_normally_distributed_random_variables&quot;&gt;Bienaymé formula&lt;/a&gt; states that the variance of the sum of $n$ uncorrelated random variables is just the sum of the variances. Under random mating the parental phenotypes are just two uncorrelated random variables with variance $V_1$, the variance of the offspring trait value (which is just the mean of the parental values) is thus given by&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;Var(\bar{z}_{i,j}) = Var\Big(\frac{1}{2}(z_i + z_j)\Big) = \frac{1}{4}Var(z_i + z_j) = \frac{1}{4}2V_1 = \frac{V_1}{2}&lt;/script&gt;
-
-&lt;p&gt;The variance in the offspring generation is thus&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;V_1' = \frac{V_1}{2} + V_0&lt;/script&gt;
-
-&lt;p&gt;Where the first term cn be seen as the within family ariance, and the second as the between family variance. At equilibrium, where $V_1’ = V_1$, $V_1$ is given by&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{eqnarray}
-\frac{V_1}{2} + V_0 &amp;=&amp; V_1  \\
-                V_1 &amp;=&amp; 2V_0 \\
-\end{eqnarray} %]]&gt;&lt;/script&gt;
-
-&lt;p&gt;This means that half of the variance is &lt;em&gt;between&lt;/em&gt; families and half &lt;em&gt;within&lt;/em&gt; families (this can be seen when substituting $V_1$ for $2V_0$ in the expression for $V_1’$ above).&lt;/p&gt;
-
-&lt;p&gt;So in summary, under the basic, phenotypically defined, infinitesimal model the phenotypic value of offspring is distributed around the parental midpoint with fixed variance independent of the parental phenotypes. The model converges to a state where the total variance is distributed equally over between and within family variance.&lt;/p&gt;
-
-&lt;h2 id=&quot;selection&quot;&gt;Selection&lt;/h2&gt;
-
-&lt;p&gt;When selection is operating on the trait value (&lt;em&gt;i.e.&lt;/em&gt; the trait is correlated with relative fitness), arbitrary distributions of trait values can form. However the within-family trait value distributions will remain Gaussian! This seems to be a key property of the infinitesimal model, which Barton &lt;em&gt;et al.&lt;/em&gt; like to stress.&lt;/p&gt;
-
-&lt;h2 id=&quot;inbreeding&quot;&gt;Inbreeding&lt;/h2&gt;
-
-&lt;p&gt;Barton &lt;em&gt;et al.&lt;/em&gt; next discuss how to incorporate inbreeding in what is now a purely phenotypically defined model. They stress that this still does not require any modern insights in ‘genes’, and that in theory only inbreeding coefficients ($F_{i,j}$) are required which can be estimated from pedigrees. However, for ease of explanation they proceed using modern terminology.&lt;/p&gt;
-
-&lt;p&gt;In the current model, the expected value of the offspring is the midpoint of the parental trait values. Variation between siblings is induced by random segregation during meiosis. The variance induced by segregation is obviously reduced when the parental genomes are similar, this is of course to say that there is inbreeding if parents are not unrelated.&lt;/p&gt;
-
-&lt;p&gt;For haploid individuals $i$ and $j$, the relationship, derived from a pedigree is described by $F_{i,j}$, which is the probability of identity by descent (IBD) of two genes from these individuals. The variance among offspring of these two parental haploid individuals is just $V_0(1-F_{i,j})$.&lt;/p&gt;
-
-&lt;p&gt;In a diploid individual, meiosis induces segregation variance among gametes proportional to $(1-F_{i,i})$, with $F_{i,i}$ the probability that two genes of a diploid pair are IBD. To form a gamete in individual $i$, we start with two independently sampled ancestral genes within the diploid individual, with variance among these $2V_0$ (since the variance of the sum of two uncorrelated random variables is just the sum of their variances) and probability of IBD $F_{i,i}$. &lt;em&gt;I am not fully sure about the following derivation&lt;/em&gt; (and also not if the notation is sound), but when meisosis forms 4 gametes, with mean phenotype $\bar{z}_{i,i}$ the corresponding variance should be something like this&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{eqnarray}
-Var(\bar{z_{i,i}}) &amp;=&amp; Var\Big(\frac{1}{4}\sum_{j=1}^{4}z_{i,i,j}\Big) \\
-                   &amp;=&amp; \frac{\sum_{j=1}^{4}Var(z_{i,i})}{4^2} \\
-                   &amp;=&amp; \frac{4Var(z_{i,i})}{4^2} \\
-                   &amp;=&amp; \frac{1}{4}2V_0 \\
-\end{eqnarray} %]]&gt;&lt;/script&gt;
-
-&lt;p&gt;conditioning on the genes sampled not being IBD. This gives an overall segregational variance for a mating of diploid parent $i$ and $j$ described by&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{1}{4}(1-F_{i,i})2V_0 + \frac{1}{4}(1-F_{j,j})2V_0 =
-V_0\Bigg(1 - \frac{(F_{i,i} + F_{j,j})}{2}\Bigg)&lt;/script&gt;
-
-&lt;p&gt;Where the possibility of IBD has been incorporated. At this moment, Barton &lt;em&gt;et al.&lt;/em&gt; note that the infinitesimal is now defined in terms of a constant genetic variance $V_0$ and a matrix of giving the probability of IBD for every individual. The probability of IBD is given by a set of recursion equations driven by a &lt;em&gt;pedigree matrix&lt;/em&gt; $P_{i,k}(t)$ which gives the probability that a gene $i$ came from parent $k$ in generation $t$.&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-&lt;p&gt;Barton, N. H., Etheridge, A. M., &amp;amp; Véber, A. (2017). The infinitesimal model: Definition, derivation, and implications. Theoretical Population Biology, 118, 50–73. https://doi.org/10.1016/j.tpb.2017.06.001&lt;/p&gt;</content><author><name></name></author><summary type="html">Barton, Etheridge &amp;amp; Véber (2017) have given us a nice and in-depth paper on the infinitesimal model in quantitative genetics, and discuss its very interesting possibilities in evolutionary genetics. Here I document a reading of this paper, mostly reproducing their math with some additional notes and comments, as an exercise of course.</summary></entry></feed>
+&lt;/center&gt;</content><author><name></name></author><summary type="html">These tracks have been laying around for quite a while, and I have always enjoyed them myself. However they have only been released in the most obscure places: there was this vuilbak compilation cassette called ‘Stort Vol.2’, which was a limited edition release of size 3 (a threefold increase compared to Stort Vol.1!), and one of the tracks could be found somewhere on the vuilbak record-label website. Now these are collected under the title Non-particular dream. In the words of the great composer:</summary></entry></feed>

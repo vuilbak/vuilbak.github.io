@@ -2,13 +2,62 @@ column_1:
   - url: http://www.vuilbak.in/vuilbak-recordlabel/home.html
     img: vuilbak.jpg
     width: 100%
+    title: "vuilbak record-label"
+
+  - title: Mandris Phinx - Balkan Hitchhiking
+    img: ms_bh.jpg"
+
+  - title: Bruine Beer - Kabbelen
+    img: bruine_beer_kabbelen.jpg
+
+  - title: Weerman - Verdraaid
+    img: weerman_verdraaid.jpg
+
+  - title: Sleath - Silent Melancholy
+    img: sleath_silent_melancholy.jpg
+
+  - title: Weerman - Veter aan boom
+    img: weerman_veteraanboom.jpg
+
+  - title: Bruine Beer - Kielzog
+    img: bruine_beer_kielzog.jpg
+
+  - title: Mandris Phinx - Simple Songs
+    img: mandris_phinx_simple_songs.jpg
+
+  - title: BEAR- lonesome ☔
+    img: bear_lonesome.jpg
+
+  - title: Weerman - Heupnotisch ☁
+    img: weerman_heupnotisch.jpg
+
+  - title: Bruine Beer - Hout Hakken
+    img: bruine_beer_hout_hakken.jpg
 
 column_2:
+
+  - title: Eilandeilanden - Eilandeilanden
+    img: eilandeilanden.png
+
+  - title: Bruine B€€r - Glaswerk
+    img: bruine_beer_glaswerk.jpg
+
+  - title: Mandris ϕnx - Leisteen
+    img: mandris_phinx_leisteen.jpg
+
+  - url: pages/bergduivel/ruis.html
+    img: ruis.gif
+    width: 70%
+
+  - url: pages/openureyes/home.html
+    img: BeautifulEye.png
+    width: 25%
 
   - url: pages/clouds/
     img: cloud.png
     width: 100px
-    bg: "#b6fbfb"
+    title: "Cloud world"
+    caption: "Cloud world best world."
 
   - title: pentapus
     url: pages/pentapus/home.html
@@ -16,10 +65,8 @@ column_2:
     width: 150px
     bg: white
 
-  - url: http://www.vuilbak.in/vuilbak-recordlabel/home.html
-    img: vuilbak.jpg
-    width: 150px
-    bg: pink
+  - title: weermanrondedans
+    img: weerman_rondedans.jpg
 
   - url: pages/nachtwinkelsingent/nachtwinkelsingent
     img: NACHT.png
@@ -32,11 +79,40 @@ column_2:
     img: BeautifulEye.png
     width: 25%
 
+  - title: Weerman - Murak
+    img: weerman_murak.jpg
+
+  - title: Looping Techno Works
+    img: weerman_looping_techno_works.jpg
+
+  - title: Weerman - Pelgrim
+    img: weerman_pelgrim.jpg
+
+  - title: Brüno Braunbär 🏬
+    img: brunobraunbar_ich_bin_bruno_braun_bar.jpg"
+
+  - title: Bruine Beer - Verjaren
+    img: bruine_beer_verjaren.jpg
+
+
 column_3:
+
+  - title: Mandirs ϕnx - 𝑲𝕆ΣℳΩƵ
+    img: mandris_phinx_kosmos.jpg
+
+  - title: Weerman - Knetter
+    img: weerman_knetter.jpg
 
   - url: pages/DAVER/home.html
     img: DAVEREND.gif
     width: 50%
+    title: DAVER
+
+  - title: King Charles Untold Tales - His name …
+    img: KCUT_his_name_was_anfortas.jpg
+
+  - title: Weerman - Gigod
+    img: weerman_gigod.jpg
 
   - url: pages/jasminedragon/
     img: jap_temple.png
@@ -59,3 +135,21 @@ column_3:
     width: 87%
     img: bb.jpg
     title: /bb/mu
+
+  - title: Sierfruit - Telefoon
+    img: sierfruit_telefoon.jpg
+
+  - title: Bruine Beer - Leo (bescheiden)
+    img: bruine_beer_leo_bescheiden.jpg"
+
+  - title: Bruine Beer - Vrachtwagen
+    img: bruine_beer_vrachtwagen.jpg
+
+  - title: Schuimkraag - Unreleased Tracks
+    img: schuimkraag_unreleased_tracks.jpg
+
+  - title: Schuimkraag - Gruis
+    img: schuimkraag_gruis.jpg
+
+  - title: Schuimkraag - Mosformaties
+    img: schuimkraag_mosformaties.jpg

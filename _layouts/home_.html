@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include head.html %}
+<script type="text/javascript" src="{{ "/assets/js/jquery-3.2.1.min.js" }}"></script>
+<style media="screen">
+body {
+  background-image: url(http://www.vuilbak.in/vuilbak-recordlabel/bg.gif);
+}
+.header {
+  background-color:#cccccc;
+  padding: 2px;
+  cursor: pointer;
+  margin-top: 2px;
+  width: 100%;
+}
+.content {
+    width:100%;
+}
+
+</style>
+
+<div class='w3-col s12 m6 l3' style='padding:1px;'>
+  <img src="{{ "/assets/img/vuilbakbanner2.png" | absolute_url }} " width='100%'>
+  {% for item in site.data.home.column_1 %}
+  <div class="header">
+    {{ item.title | escape }}
+  </div>
+  <div class="content">
+    <a class="post-link" href="{{ item.url | relative_url }}"><img style="width:100%;" src="{{ "/assets/img/"  | append: item.img }}"></a>
+    {% if item.caption %}
+    <p style="background-color:#ffffff;">{{ item.caption }}</p>
+    {% endif %}
+  </div>
+
+  {% endfor %}
+
+  {% for post in site.posts %}
+  <div class="header">{{ post.title }}</div>
+  <div class="content" >
+  {% if post.img %}
+    <a class="post-link" href="{{ post.url | relative_url }}"><img style="width:100%;" src="{{ "/assets/img/"  | append: post.img }}"></a>
+  {% else %}
+    <a class="post-link" href="{{ post.url | relative_url }}">
+  {% endif %}
+  <mark style="background-color:#ffffff;">{{ post.content | strip_html | truncatewords: 50 }}</mark>
+  {% if post.img %}
+  {% else %}
+    </a>
+  {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+<div class='w3-col s12 m6 l3' style='padding:1px;'>
+  {% for item in site.data.home.column_2 %}
+  <div class="header">
+    {{ item.title | escape }}
+  </div>
+  <div class="content">
+    <a class="post-link" href="{{ item.url | relative_url }}"><img style="width:100%;" src="{{ "/assets/img/"  | append: item.img }}"></a>
+    {% if item.caption %}
+    <p style="background-color:#ffffff;">{{ item.caption }}</p>
+    {% endif %}
+  </div>
+
+  {% endfor %}
+</div>
+
+<div class='w3-col s12 m6 l3' style='padding:1px;'>
+  {% for item in site.data.home.column_3 %}
+  <div class="header">
+    {{ item.title | escape }}
+  </div>
+  <div class="content">
+    <a class="post-link" href="{{ item.url | relative_url }}"><img style="width:100%;" src="{{ "/assets/img/"  | append: item.img }}"></a>
+    {% if item.caption %}
+    <p style="background-color:#ffffff;">{{ item.caption }}</p>
+    {% endif %}
+  </div>
+
+  {% endfor %}
+</div>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+    $(".content").hide();
+});
+
+$(".header").click(function () {
+    $header = $(this);
+    //getting the next element
+    $content = $header.next();
+    //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+    $content.slideToggle(500, function () {
+        //do domething
+    });
+});
+</script>
+
+
+
+</body>
+</html>
