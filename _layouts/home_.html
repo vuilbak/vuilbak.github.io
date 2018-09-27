@@ -43,10 +43,14 @@ body {
   <div class="header">
     {{ item.title | escape }}
   </div>
+  {% if item.open %}
+  <div>
+  {% else %}
   <div class="content">
+  {% endif %}
     <a class="post-link" href="{{ item.url | relative_url }}"><img style="width:100%;" src="{{ "/assets/img/"  | append: item.img }}"></a>
     {% if item.caption %}
-    <p style="background-color:#ffffff;">{{ item.caption }}</p>
+    <mark style="background-color:#ffffff;">{{ item.caption }}</mark>
     {% endif %}
   </div>
 
@@ -59,10 +63,14 @@ body {
   <div class="header">
     {{ item.title | escape }}
   </div>
+  {% if item.open %}
+  <div>
+  {% else %}
   <div class="content">
+  {% endif %}
     <a class="post-link" href="{{ item.url | relative_url }}"><img style="width:100%;" src="{{ "/assets/img/"  | append: item.img }}"></a>
     {% if item.caption %}
-    <p style="background-color:#ffffff;">{{ item.caption }}</p>
+    <mark style="background-color:#ffffff;">{{ item.caption }}</mark>
     {% endif %}
   </div>
 
@@ -74,7 +82,52 @@ body {
   <div class="header">
     {{ item.title | escape }}
   </div>
+  {% if item.open %}
+  <div>
+  {% else %}
   <div class="content">
+  {% endif %}
+    <a class="post-link" href="{{ item.url | relative_url }}"><img style="width:100%;" src="{{ "/assets/img/"  | append: item.img }}"></a>
+    {% if item.caption %}
+    <mark style="background-color:#ffffff;">{{ item.caption }}</mark>
+    {% endif %}
+  </div>
+
+  {% endfor %}
+</div>
+
+<div class='w3-col s12 m6 l3' style='padding:1px;'>
+
+  <div class="header"></div>
+  <div>
+    <img src="{{ "/assets/img/vuilbakbanner.png" }}" width="100%">
+    <mark style="background-color:#ffffff;">
+      vuilbak is a ghent based record-label and collective, widely regarded as one of the leading organisations in the avant-garde of the beestenmarkt neighborhood.
+    </mark>
+  </div>
+
+  <div class="header"></div>
+  <div>
+  <button class="w3-button w3-block w3-padding-small w3-teal" onclick="change_bg()">I 💕 this background!</button>
+  </div>
+
+  <div class="header"></div>
+  <div><img src="{{ "/assets/img/cassettes1.jpg" }}" width="100%">
+    <img src="{{ "/assets/img/cassettes2.jpg" }}" width="100%">
+    <img src="{{ "/assets/img/cassettes3.jpg" }}" width="100%"></div>
+
+    <div class="header"></div>
+    <div><img src="{{ "/assets/img/kf_ghost.png" }}" width="100%"></div>
+
+  {% for item in site.data.home.column_4 %}
+  <div class="header">
+    {{ item.title | escape }}
+  </div>
+  {% if item.open %}
+  <div>
+  {% else %}
+  <div class="content">
+  {% endif %}
     <a class="post-link" href="{{ item.url | relative_url }}"><img style="width:100%;" src="{{ "/assets/img/"  | append: item.img }}"></a>
     {% if item.caption %}
     <p style="background-color:#ffffff;">{{ item.caption }}</p>
@@ -99,6 +152,10 @@ $(".header").click(function () {
         //do domething
     });
 });
+
+function change_bg() {
+      document.body.style.background = "#ffffff";
+};
 </script>
 
 

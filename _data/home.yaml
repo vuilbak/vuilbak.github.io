@@ -6,9 +6,14 @@ column_1:
 
   - title: Mandris Phinx - Balkan Hitchhiking
     img: ms_bh.jpg"
+    caption: Mandris Phinx has come up with a beatiful field recording album. No guitars, no fingerpicking, no more drowning in his sweet and deep voice. Mandris gives us the auditive travellers experience like the quiet american or Lieven Martens. It feels almost if we're allowed access to a restricted private travel diary. Like with many field recording - exclusive albums, this is probably not the kind of record you will return to once a week, however it is a highy recommended listen for when you're in the mood for an auditory voyage.
+    url: https://mandrisphinx.bandcamp.com/album/balkan-hitchhiking
 
   - title: Bruine Beer - Kabbelen
     img: bruine_beer_kabbelen.jpg
+    caption: We are very glad to anounce the new Bruine Beer album Kabbelen, almost half a year after his critically acclaimed mini-album Kielzog and more than a year after his last full length release Hout Hakken. Kabbelen -  the purposeless flowing of things, rivers, streams, thoughts, this music, ... Kabbelen takes again a whole new angle to the Bruine Beer sound (if such a thing exists) and focusses mainly on field recordings and more "classic" ambient tracks. It is ambient in the more original sense in that it can be easily ignored and become part of the environment, it isn't music to listen to very actively (though possible). In the words of Eno -  "It should be as interesting as it is ignorable." Please refer to the full liner notes for a thorough explanation/listening guide.
+    url: https://bruinebeer.bandcamp.com/album/kabbelen
+    open: true
 
   - title: Weerman - Verdraaid
     img: weerman_verdraaid.jpg
@@ -36,8 +41,15 @@ column_1:
 
 column_2:
 
+  - title: Sleath - Autumn Skies
+    img: sleath_as.jpg
+    caption: A magnificent and highly personal album from the ever-mesmerizing Sleath. His second album after the critically acclaimed debut 'Silent Melancholy' - Autumn Skies comes as a treat for fans of Sleath's unique approach to the singer-songwriter persona.
+    open: true
+    url: https://sleath.bandcamp.com/releases
+
   - title: Eilandeilanden - Eilandeilanden
     img: eilandeilanden.png
+    caption: The debut album eilandeilanden by eilandeilanden. A highly premature release. Imagine yourself very remotely on a sunny island surrounded by friendly bureaucrats, having very strange mutual relationships. Imagine yourself on a journey where you are submerged in relaxing awkwardness. Imagine yourself in that workshop you really find useless, but you had to go, in a way that you enjoy every piece of it, despite the atmosphere of painful silence-based awkwardness. Imagine yourself on the eilandeilanden, a holiday destination without escape possibilities. This is eilandeilanden.
 
   - title: Bruine B€€r - Glaswerk
     img: bruine_beer_glaswerk.jpg
@@ -62,8 +74,7 @@ column_2:
   - title: pentapus
     url: pages/pentapus/home.html
     img: pentapus.png
-    width: 150px
-    bg: white
+    open: true
 
   - title: weermanrondedans
     img: weerman_rondedans.jpg
@@ -99,6 +110,8 @@ column_3:
 
   - title: Mandirs ϕnx - 𝑲𝕆ΣℳΩƵ
     img: mandris_phinx_kosmos.jpg
+    caption: Great news fellow vuilbakkians! Vuilbak artist and veteran time traveler Mandris Phinx released his third album - Kosmos. Full of existential cosmic contemplation, Herr Drilller's new album is a treat for the lo/sci-fi-acoustic-folk lover. Our colorful-but ape reveals his excellent song writing skills as well as vocal capacities more than ever, with an unprecedented level of self-consciousness. Being the most mature release yet of the one and only vuilbak-finger-picker hero, it is safe to say that this record will last for lightyears. A small note - If you're not that fond of the fingerpicking/chord strumming madness (which I doubt), I would still recommend the outro "thermal extinction".
+    url: https://mandrisphinx.bandcamp.com/album/kosmos
 
   - title: Weerman - Knetter
     img: weerman_knetter.jpg
@@ -113,6 +126,9 @@ column_3:
 
   - title: Weerman - Gigod
     img: weerman_gigod.jpg
+    caption: Oh man, weerman does it again. Need something to spice up your day? Weerman has been sleeping on this four-tracker for quite a while now. Gigod offers you an escape from your daily grind and takes you on a journey which will make your ears glow. Ademnood and Gigod are dense and deep excursions into the dubby spectrum of electronic music. The flipside invites you out on the dancefloor. The pace gets picked up, Intens and Ongemak are Weerman's most club-ready tracks yet and make you want to move your bottocks. Note - Vuilbak is not responsible for any dislocated body parts.
+    url: https://weerman.bandcamp.com/album/gigod
+    open: true
 
   - url: pages/jasminedragon/
     img: jap_temple.png
@@ -129,7 +145,7 @@ column_3:
 
   - url: pages/walkthrough/msm.html
     width: 45%
-    img: cyclist.jpg
+    img: cyclist.jpgcaption
 
   - url: pages/mu_bb/
     width: 87%
