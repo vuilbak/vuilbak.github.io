@@ -184,10 +184,12 @@ column_3:
   - title: Schuimkraag - Unreleased Tracks
     img: schuimkraag_unreleased_tracks.jpg
 
-  - title: Schuimkraag - Gruis
-    img: schuimkraag_gruis.jpg
-
   - title: Schuimkraag - Mosformaties
     img: schuimkraag_mosformaties.jpg
     open: true
     url: https://schuimkraag.bandcamp.com/album/mosformaties
+
+column_4:
+
+  - title: Schuimkraag - Gruis
+    img: schuimkraag_gruis.jpg

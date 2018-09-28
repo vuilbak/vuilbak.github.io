@@ -43,7 +43,8 @@ body {
 
 <div class='w3-col s12 m6 l3' style='padding:1px;'>
   <img src="http://localhost:4000/assets/img/vuilbakbanner2.png " width='100%'>
-
+  <div><button class="w3-button w3-block w3-padding-small w3-white" onclick="open_all()">⇵ open/close all</button>
+  </div>
 
     
     <div class="header">Bruine Beer - φμ</div>
@@ -604,17 +605,6 @@ body {
 
   
   <div class="header">
-    Schuimkraag - Gruis
-  </div>
-  
-  <div class="content">
-  
-    <a class="post-link" href=""><img style="width:100%;" src="/assets/img/schuimkraag_gruis.jpg"></a>
-    
-  </div>
-
-  
-  <div class="header">
     Schuimkraag - Mosformaties
   </div>
   
@@ -649,6 +639,17 @@ body {
     <div><img src="/assets/img/kf_ghost.png" width="100%"></div>
 
   
+  <div class="header">
+    Schuimkraag - Gruis
+  </div>
+  
+  <div class="content">
+  
+    <a class="post-link" href=""><img style="width:100%;" src="/assets/img/schuimkraag_gruis.jpg"></a>
+    
+  </div>
+
+  
 </div>
 
 <script type="text/javascript">
@@ -668,7 +669,11 @@ $(".header").click(function () {
 });
 
 function change_bg() {
-      document.body.style.background = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
+    document.body.style.background = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
+};
+
+function open_all() {
+    $(".content").slideToggle(500, function() {});
 };
 </script>
 
