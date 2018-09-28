@@ -53,10 +53,6 @@ column_2:
     open: true
     url: https://sleath.bandcamp.com/releases
 
-  - title: Weerman - Wig Walm
-    img: wigwalm.jpg
-    url: https://weerman.bandcamp.com/album/wig-walm
-
   - title: Eilandeilanden - Eilandeilanden
     img: eilandeilanden.png
     caption: The debut album eilandeilanden by eilandeilanden. A highly premature release. Imagine yourself very remotely on a sunny island surrounded by friendly bureaucrats, having very strange mutual relationships. Imagine yourself on a journey where you are submerged in relaxing awkwardness. Imagine yourself in that workshop you really find useless, but you had to go, in a way that you enjoy every piece of it, despite the atmosphere of painful silence-based awkwardness. Imagine yourself on the eilandeilanden, a holiday destination without escape possibilities. This is eilandeilanden.
@@ -125,7 +121,7 @@ column_3:
   - title: Weerman - Raaf EP
     url: https://weerman.bandcamp.com/album/raaf-ep
     img: raaf.jpg
-    caption: One of Vuilbak's most prolific artists returns to the label, offering a batch of sweet-on-the-ears tracks. Incorporating a wide variety of samples and field recordings, offered by his labelhead and upstairs neighbour, these tracks are some of his most organic and layered yet. Also included in this release is a first ever collaboration between Sierfruit and Weerman. Give it a spin xoxo
+    caption: With the coldness outside, Weerman invites you into hot 'n sweaty rave-dungeons and basements, by offering five menacing, high energy party bombs. Gathering dust in the archives, the time feels right to release them now. Enjoy 🎧 💪 🎧
 
   - title: Mandirs ϕnx - 𝑲𝕆ΣℳΩƵ
     img: mandris_phinx_kosmos.jpg
@@ -143,11 +139,16 @@ column_3:
   - title: King Charles Untold Tales - His name …
     img: KCUT_his_name_was_anfortas.jpg
 
+  - title: Weerman - Wig Walm
+    img: wigwalm.jpg
+    url: https://weerman.bandcamp.com/album/wig-walm
+    caption: One of Vuilbak's most prolific artists returns to the label, offering a batch of sweet-on-the-ears tracks. Incorporating a wide variety of samples and field recordings, offered by his labelhead and upstairs neighbour, these tracks are some of his most organic and layered yet. Also included in this release is a first ever collaboration between Sierfruit and Weerman. Give it a spin xoxo
+    open: true
+
   - title: Weerman - Gigod
     img: weerman_gigod.jpg
     caption: Oh man, weerman does it again. Need something to spice up your day? Weerman has been sleeping on this four-tracker for quite a while now. Gigod offers you an escape from your daily grind and takes you on a journey which will make your ears glow. Ademnood and Gigod are dense and deep excursions into the dubby spectrum of electronic music. The flipside invites you out on the dancefloor. The pace gets picked up, Intens and Ongemak are Weerman's most club-ready tracks yet and make you want to move your bottocks. Note - Vuilbak is not responsible for any dislocated body parts.
     url: https://weerman.bandcamp.com/album/gigod
-    open: true
 
   - url: pages/jasminedragon/
     img: jap_temple.png
