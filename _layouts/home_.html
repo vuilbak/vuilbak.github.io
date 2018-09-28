@@ -154,7 +154,7 @@ $(".header").click(function () {
 });
 
 function change_bg() {
-      document.body.style.background = "#ffffff";
+      document.body.style.background = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
 };
 </script>
 
