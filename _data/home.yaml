@@ -4,6 +4,12 @@ column_1:
     width: 100%
     title: "vuilbak record-label"
 
+  - title: L. R. Flores - Sportsmen In Doubt
+    img: cover_flores.png
+    open: true
+    url: /pages/lr_flores/lr_flores.html
+    caption: Hello people, we are excited to announce the first album by new Vuilbak artist L.R. Flores, noted member of the Blaarmeersen Liberation Front. 10 songs assembled in the dark thickets of an urban park with acoustic guitars and drum computers that invoke the spirits of museum love, grand historical failures, 2017 post-collegiate grief, the Coupure, Aubrey Graham and mystical utopianism. Enjoy!
+
   - title: Mandris Phinx - Balkan Hitchhiking
     img: ms_bh.jpg"
     caption: Mandris Phinx has come up with a beatiful field recording album. No guitars, no fingerpicking, no more drowning in his sweet and deep voice. Mandris gives us the auditive travellers experience like the quiet american or Lieven Martens. It feels almost if we're allowed access to a restricted private travel diary. Like with many field recording - exclusive albums, this is probably not the kind of record you will return to once a week, however it is a highy recommended listen for when you're in the mood for an auditory voyage.
@@ -47,6 +53,10 @@ column_2:
     open: true
     url: https://sleath.bandcamp.com/releases
 
+  - title: Weerman - Wig Walm
+    img: wigwalm.jpg
+    url: https://weerman.bandcamp.com/album/wig-walm
+
   - title: Eilandeilanden - Eilandeilanden
     img: eilandeilanden.png
     caption: The debut album eilandeilanden by eilandeilanden. A highly premature release. Imagine yourself very remotely on a sunny island surrounded by friendly bureaucrats, having very strange mutual relationships. Imagine yourself on a journey where you are submerged in relaxing awkwardness. Imagine yourself in that workshop you really find useless, but you had to go, in a way that you enjoy every piece of it, despite the atmosphere of painful silence-based awkwardness. Imagine yourself on the eilandeilanden, a holiday destination without escape possibilities. This is eilandeilanden.
@@ -75,6 +85,10 @@ column_2:
     url: pages/pentapus/home.html
     img: pentapus.png
     open: true
+
+  - title: Birdwatching
+    url: pages/birdwatching/
+    img: curlew.jpg
 
   - title: weermanrondedans
     img: weerman_rondedans.jpg
@@ -107,6 +121,11 @@ column_2:
 
 
 column_3:
+
+  - title: Weerman - Raaf EP
+    url: https://weerman.bandcamp.com/album/raaf-ep
+    img: raaf.jpg
+    caption: One of Vuilbak's most prolific artists returns to the label, offering a batch of sweet-on-the-ears tracks. Incorporating a wide variety of samples and field recordings, offered by his labelhead and upstairs neighbour, these tracks are some of his most organic and layered yet. Also included in this release is a first ever collaboration between Sierfruit and Weerman. Give it a spin xoxo
 
   - title: Mandirs ϕnx - 𝑲𝕆ΣℳΩƵ
     img: mandris_phinx_kosmos.jpg
@@ -145,7 +164,7 @@ column_3:
 
   - url: pages/walkthrough/msm.html
     width: 45%
-    img: cyclist.jpgcaption
+    img: cyclist.jpg
 
   - url: pages/mu_bb/
     width: 87%
@@ -169,3 +188,5 @@ column_3:
 
   - title: Schuimkraag - Mosformaties
     img: schuimkraag_mosformaties.jpg
+    open: true
+    url: https://schuimkraag.bandcamp.com/album/mosformaties
