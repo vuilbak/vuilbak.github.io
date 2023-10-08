@@ -4,6 +4,12 @@ column_1:
     width: 100%
     title: "vuilbak record-label"
 
+  - img: stuntmanduiven.jpg
+    open: true
+    url: pages/stuntman/stuntman.html
+    caption: Wij zijn ongelooflijk verheugd om u de geboorte van <b>STUNTMAN</b> te verkondigen! <i>En gulder maar peinzen dat vuilbak niet meer bestond! Dwazen!</i>
+    title: STUNTMAN -- STUNTMAN -- STUNTMAN
+
   - title: L. R. Flores - Sportsmen In Doubt
     img: cover_flores.png
     open: true
@@ -19,7 +25,7 @@ column_1:
     img: bruine_beer_kabbelen.jpg
     caption: We are very glad to anounce the new Bruine Beer album Kabbelen, almost half a year after his critically acclaimed mini-album Kielzog and more than a year after his last full length release Hout Hakken. Kabbelen -  the purposeless flowing of things, rivers, streams, thoughts, this music, ... Kabbelen takes again a whole new angle to the Bruine Beer sound (if such a thing exists) and focusses mainly on field recordings and more "classic" ambient tracks. It is ambient in the more original sense in that it can be easily ignored and become part of the environment, it isn't music to listen to very actively (though possible). In the words of Eno -  "It should be as interesting as it is ignorable." Please refer to the full liner notes for a thorough explanation/listening guide.
     url: https://bruinebeer.bandcamp.com/album/kabbelen
-    open: true
+    open: false
 
   - title: Weerman - Verdraaid
     img: weerman_verdraaid.jpg
