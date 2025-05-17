@@ -1,0 +1,17 @@
+name: Build Jekyll site
+
+on:
+  push:
+    branches:
+      - main # or master before October 2020
+  workflow_dispatch:
+
+jobs:
+  buildsite:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.BUILD_TOKEN_2 }}
+          target_branch: 'gh-pages'
