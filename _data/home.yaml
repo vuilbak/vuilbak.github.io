@@ -91,10 +91,6 @@ column_2:
     img: pentapus.png
     open: true
 
-  - title: Birdwatching
-    url: pages/birdwatching/
-    img: curlew.jpg
-
   - title: weermanrondedans
     img: weerman_rondedans.jpg
 
@@ -186,11 +182,6 @@ column_3:
   - url: pages/walkthrough/msm.html
     width: 45%
     img: cyclist.jpg
-
-  - url: pages/mu_bb/
-    width: 87%
-    img: bb.jpg
-    title: /bb/mu
 
   - title: Sierfruit - Telefoon
     img: sierfruit_telefoon.jpg
