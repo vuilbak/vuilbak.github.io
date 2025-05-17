@@ -18,26 +18,6 @@ column_1:
     url: /pages/lr_flores/lr_flores.html
     caption: Hello people, we are excited to announce the first album by new Vuilbak artist L.R. Flores, noted member of the Blaarmeersen Liberation Front. 10 songs assembled in the dark thickets of an urban park with acoustic guitars and drum computers that invoke the spirits of museum love, grand historical failures, 2017 post-collegiate grief, the Coupure, Aubrey Graham and mystical utopianism. Enjoy!
 
-  - title: Mandris Phinx - Balkan Hitchhiking
-    img: ms_bh.jpg"
-    caption: Mandris Phinx has come up with a beatiful field recording album. No guitars, no fingerpicking, no more drowning in his sweet and deep voice. Mandris gives us the auditive travellers experience like the quiet american or Lieven Martens. It feels almost if we're allowed access to a restricted private travel diary. Like with many field recording - exclusive albums, this is probably not the kind of record you will return to once a week, however it is a highy recommended listen for when you're in the mood for an auditory voyage.
-    url: https://mandrisphinx.bandcamp.com/album/balkan-hitchhiking
-
-  - title: Bruine Beer - Kabbelen
-    img: bruine_beer_kabbelen.jpg
-    caption: We are very glad to anounce the new Bruine Beer album Kabbelen, almost half a year after his critically acclaimed mini-album Kielzog and more than a year after his last full length release Hout Hakken. Kabbelen -  the purposeless flowing of things, rivers, streams, thoughts, this music, ... Kabbelen takes again a whole new angle to the Bruine Beer sound (if such a thing exists) and focusses mainly on field recordings and more "classic" ambient tracks. It is ambient in the more original sense in that it can be easily ignored and become part of the environment, it isn't music to listen to very actively (though possible). In the words of Eno -  "It should be as interesting as it is ignorable." Please refer to the full liner notes for a thorough explanation/listening guide.
-    url: https://bruinebeer.bandcamp.com/album/kabbelen
-    open: false
-
-  - title: Weerman - Verdraaid
-    img: weerman_verdraaid.jpg
-
-  - title: Sleath - Silent Melancholy
-    img: sleath_silent_melancholy.jpg
-
-  - title: Weerman - Veter aan boom
-    img: weerman_veteraanboom.jpg
-
   - title: Bruine Beer - Kielzog
     img: bruine_beer_kielzog.jpg
 
@@ -49,9 +29,10 @@ column_1:
 
   - title: Weerman - Heupnotisch ☁
     img: weerman_heupnotisch.jpg
-
+  
   - title: Bruine Beer - Hout Hakken
     img: bruine_beer_hout_hakken.jpg
+
 
 column_2:
   
@@ -61,9 +42,17 @@ column_2:
     caption: Wij zijn ongelooflijk verheugd om u de geboorte van <b>STUNTMAN</b> te verkondigen! <i>En gulder maar peinzen dat vuilbak niet meer bestond! Dwazen!</i>
     title: STUNTMAN -- STUNTMAN -- STUNTMAN
 
+  - title: Bruine Beer - Kabbelen
+    img: bruine_beer_kabbelen.jpg
+    caption: We are very glad to anounce the new Bruine Beer album Kabbelen, almost half a year after his critically acclaimed mini-album Kielzog and more than a year after his last full length release Hout Hakken. Kabbelen -  the purposeless flowing of things, rivers, streams, thoughts, this music, ... Kabbelen takes again a whole new angle to the Bruine Beer sound (if such a thing exists) and focusses mainly on field recordings and more "classic" ambient tracks. It is ambient in the more original sense in that it can be easily ignored and become part of the environment, it isn't music to listen to very actively (though possible). In the words of Eno -  "It should be as interesting as it is ignorable." Please refer to the full liner notes for a thorough explanation/listening guide.
+    url: https://bruinebeer.bandcamp.com/album/kabbelen
+    open: false
+
+
   - title: Eilandeilanden - Eilandeilanden
     img: eilandeilanden.png
     caption: The debut album eilandeilanden by eilandeilanden. A highly premature release. Imagine yourself very remotely on a sunny island surrounded by friendly bureaucrats, having very strange mutual relationships. Imagine yourself on a journey where you are submerged in relaxing awkwardness. Imagine yourself in that workshop you really find useless, but you had to go, in a way that you enjoy every piece of it, despite the atmosphere of painful silence-based awkwardness. Imagine yourself on the eilandeilanden, a holiday destination without escape possibilities. This is eilandeilanden.
+    open: true
     url: https://eilandeilanden.bandcamp.com/
 
   - title: Bruine B€€r - Glaswerk
@@ -90,6 +79,21 @@ column_2:
     url: pages/pentapus/home.html
     img: pentapus.png
     open: true
+  
+  - title: Mandris Phinx - Balkan Hitchhiking
+    img: ms_bh.jpg"
+    caption: Mandris Phinx has come up with a beatiful field recording album. No guitars, no fingerpicking, no more drowning in his sweet and deep voice. Mandris gives us the auditive travellers experience like the quiet american or Lieven Martens. It feels almost if we're allowed access to a restricted private travel diary. Like with many field recording - exclusive albums, this is probably not the kind of record you will return to once a week, however it is a highy recommended listen for when you're in the mood for an auditory voyage.
+    url: https://mandrisphinx.bandcamp.com/album/balkan-hitchhiking
+  
+  - title: Weerman - Verdraaid
+    img: weerman_verdraaid.jpg
+
+  - title: Sleath - Silent Melancholy
+    img: sleath_silent_melancholy.jpg
+
+  - title: Weerman - Veter aan boom
+    img: weerman_veteraanboom.jpg
+
 
   - title: weermanrondedans
     img: weerman_rondedans.jpg

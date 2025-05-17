@@ -24,21 +24,6 @@ body {
   <div><button class="w3-button w3-block w3-padding-small w3-white" onclick="open_all()">⇵ open/close all</button>
   </div>
 
-    {% for post in site.posts %}
-    <div class="header">{{ post.title }}</div>
-    <div class="content" >
-    {% if post.img %}
-      <a class="post-link" href="{{ post.url | relative_url }}"><img style="width:100%;" src="{{ "/assets/img/"  | append: post.img }}"></a>
-    {% else %}
-      <a class="post-link" href="{{ post.url | relative_url }}">
-    {% endif %}
-    <mark style="background-color:#ffffff;">{{ post.content | strip_html | truncatewords: 50 }}</mark>
-    {% if post.img %}
-    {% else %}
-      </a>
-    {% endif %}
-    </div>
-    {% endfor %}
 
   {% for item in site.data.home.column_1 %}
   <div class="header">
@@ -56,6 +41,21 @@ body {
   </div>
 
   {% endfor %}
+  {% for post in site.posts %}
+    <div class="header">{{ post.title }}</div>
+    <div class="content" >
+    {% if post.img %}
+      <a class="post-link" href="{{ post.url | relative_url }}"><img style="width:100%;" src="{{ "/assets/img/"  | append: post.img }}"></a>
+    {% else %}
+      <a class="post-link" href="{{ post.url | relative_url }}">
+    {% endif %}
+    <mark style="background-color:#ffffff;">{{ post.content | strip_html | truncatewords: 50 }}</mark>
+    {% if post.img %}
+    {% else %}
+      </a>
+    {% endif %}
+    </div>
+    {% endfor %}
 
 </div>
 
