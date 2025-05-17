@@ -1,4 +1,11 @@
 column_1:
+
+  - img: tomdanny2.png 
+    open: true
+    url: pages/tomdanny/tomdanny.html
+    caption: Had ik maar
+    title: Tom Danny -- Had ik maar
+
   - url: http://www.vuilbak.in/vuilbak-recordlabel/home.html
     img: vuilbak.jpg
     width: 100%
