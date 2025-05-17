@@ -3,19 +3,14 @@ column_1:
   - img: tomdanny2.png 
     open: true
     url: pages/tomdanny/tomdanny.html
-    caption: Had ik maar
+    caption:  "Tom 'Danny' Danhieux komt met een pakkende uitvoering van Danny
+      'Ciske de Rat' Demuynck's 'Ik voel me zo verdomd alleen'." 
     title: Tom Danny -- Had ik maar
 
   - url: http://www.vuilbak.in/vuilbak-recordlabel/home.html
     img: vuilbak.jpg
     width: 100%
     title: "vuilbak record-label"
-
-  - img: stuntmanduiven.jpg
-    open: true
-    url: pages/stuntman/stuntman.html
-    caption: Wij zijn ongelooflijk verheugd om u de geboorte van <b>STUNTMAN</b> te verkondigen! <i>En gulder maar peinzen dat vuilbak niet meer bestond! Dwazen!</i>
-    title: STUNTMAN -- STUNTMAN -- STUNTMAN
 
   - title: L. R. Flores - Sportsmen In Doubt
     img: cover_flores.png
@@ -59,12 +54,12 @@ column_1:
     img: bruine_beer_hout_hakken.jpg
 
 column_2:
-
-  - title: Sleath - Autumn Skies
-    img: sleath_as.jpg
-    caption: A magnificent and highly personal album from the ever-mesmerizing Sleath. His second album after the critically acclaimed debut 'Silent Melancholy' - Autumn Skies comes as a treat for fans of Sleath's unique approach to the singer-songwriter persona.
+  
+  - img: stuntmanduiven.jpg
     open: true
-    url: https://sleath.bandcamp.com/album/autumn-skies
+    url: pages/stuntman/stuntman.html
+    caption: Wij zijn ongelooflijk verheugd om u de geboorte van <b>STUNTMAN</b> te verkondigen! <i>En gulder maar peinzen dat vuilbak niet meer bestond! Dwazen!</i>
+    title: STUNTMAN -- STUNTMAN -- STUNTMAN
 
   - title: Eilandeilanden - Eilandeilanden
     img: eilandeilanden.png
@@ -136,6 +131,13 @@ column_3:
     url: https://weerman.bandcamp.com/album/raaf-ep
     img: raaf.jpg
     caption: With the coldness outside, Weerman invites you into hot 'n sweaty rave-dungeons and basements, by offering five menacing, high energy party bombs. Gathering dust in the archives, the time feels right to release them now. Enjoy 🎧 💪 🎧
+
+  - title: Sleath - Autumn Skies
+    img: sleath_as.jpg
+    caption: A magnificent and highly personal album from the ever-mesmerizing Sleath. His second album after the critically acclaimed debut 'Silent Melancholy' - Autumn Skies comes as a treat for fans of Sleath's unique approach to the singer-songwriter persona.
+    open: true
+    url: https://sleath.bandcamp.com/album/autumn-skies
+
 
   - title: Mandirs ϕnx - 𝑲𝕆ΣℳΩƵ
     img: mandris_phinx_kosmos.jpg
