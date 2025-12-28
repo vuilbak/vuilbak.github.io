@@ -4,9 +4,10 @@ column_1:
     open: true
     caption: "De debuut EP van Tom D! Komt dat zien, komt dat horen!"
     title: "Tom D -- Bij u"
+    url: pages/tomd/tomd-biju.html
 
   - img: tomdanny2.png 
-    open: true
+    open: false
     url: pages/tomdanny/tomdanny.html
     caption:  "Tom 'Danny' Danhieux komt met een pakkende uitvoering van Danny
       'Ciske de Rat' Demuynck's 'Ik voel me zo verdomd alleen'." 
