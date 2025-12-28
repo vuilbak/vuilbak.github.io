@@ -1,5 +1,10 @@
 column_1:
 
+  - img: 'tom ep ik heb geen mondje maar wel een randje.jpg'
+    open: true
+    caption: "De debuut EP van Tom D! Komt dat zien, komt dat horen!"
+    title: "Tom D -- Bij u"
+
   - img: tomdanny2.png 
     open: true
     url: pages/tomdanny/tomdanny.html
